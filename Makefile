@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tinytinyhttpd
-PORTVERSION=	0.0.1
+PORTVERSION=	0.0.2
 CATEGORIES=	www
 MASTER_SITES=	http://cloud.github.com/downloads/mattn/tinytinyhttpd/ \
 		${MASTER_SITE_LOCAL}
@@ -15,7 +15,7 @@ MAINTAINER=	smatsui@karashi.org
 COMMENT=	Tiny tiny httpd
 
 PLIST_FILES=	bin/tthttpd
-PORTDOCS=	README.mkd example.conf
+PORTDOCS=	README.mkd example.conf ChangeLog
 
 .include <bsd.port.pre.mk>
 
@@ -26,6 +26,7 @@ do-install:
 	@${MKDIR} ${DOCSDIR}
 	${INSTALL_DATA} ${FILESDIR}/example.conf ${DOCSDIR}
 	${INSTALL_DATA} ${WRKSRC}/README.mkd ${DOCSDIR}
+	${INSTALL_DATA} ${WRKSRC}/ChangeLog ${DOCSDIR}
 .endif
 
 .include <bsd.port.post.mk>
