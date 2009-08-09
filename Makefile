@@ -2,11 +2,11 @@
 # Date created:		01 Aug 2009
 # Whom:			Shinsuke Matsui <smatsui@karashi.org>
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/tinytinyhttpd/Makefile,v 1.2 2009/08/07 20:09:35 miwi Exp $
 #
 
 PORTNAME=	tinytinyhttpd
-PORTVERSION=	0.0.4c
+PORTVERSION=	0.0.5
 CATEGORIES=	www
 MASTER_SITES=	http://cloud.github.com/downloads/mattn/tinytinyhttpd/ \
 		${MASTER_SITE_LOCAL}
