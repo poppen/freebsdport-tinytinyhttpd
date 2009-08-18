@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tinytinyhttpd
-PORTVERSION=	0.0.6
+PORTVERSION=	0.0.6b
 CATEGORIES=	www
 MASTER_SITES=	http://cloud.github.com/downloads/mattn/tinytinyhttpd/ \
 		${MASTER_SITE_LOCAL}
